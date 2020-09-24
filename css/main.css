@@ -366,16 +366,184 @@ margin-bottom: 40px;
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-width: 768px) {
+/*Tablet Styles Here*/
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* General styles */
+ .content-wrapper {
+     max-width: 640px;
+     margin: 100px 0;
+ }
+
+ /* Header */
+
+ header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 31px 0;
+   margin: 0 33px;
+ }
+
+ header .content-wrapper {
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ header nav {
+     width: 17%;
+ }
+
+ header nav ul {
+   display: flex;
+   justify-content: space-between;
+   width: 7%;
+ }
+ header nav ul li {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 30px;
+ }
+
+ .header-divider {
+     display: none;
+ }
+
+ /* Hero Area */
+ .hero-area {
+   margin: 0 63px 0 63px;
+ }
+.hero-area .content-wrapper h1 {
+  width: 69%;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+ /* Aside */
+ aside .content-wrapper {
+     margin: 50px 0;
+     display: flex;
+     justify-content:space-around;
+     flex-flow: row wrap;
+ }
+
+ aside .content-wrapper .form-description,
+ aside .content-wrapper .form {
+     width: 40%;
+     margin: 0;
+ }
+
+ /* Features */
+
+ .features article {
+width: 23%;
+flex-basis: 200px;
+ }
+.feature-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content:space-between;
+  flex-flow:row wrap;
+  margin: 0 115px;
+}
+ .features .features-item-description p{
+     width:23%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .features-item-description {
+   padding: 25px 15px;
+
+ }
+
+ /* Reviews */
+ .reviews article {
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row wrap;
+   width: 42%;
+ }
+ .reviews h2 {
+   padding-bottom: 24px 0 ;
+ }
+
+ /* Footer */
+ footer .content-wrapper {
+     width: 66%;
+     padding: 40px 0;
+ }
+
+ .footer-content {
+   width: 21%;
+   margin: 0 130px;
+   display: flex;
+   justify-content: center;
+   align-items: space-between ;
+ }
+
+ footer .contact {
+     margin-bottom: 0;
+     padding-right: 139px;
+     display: flex;
+     justify-content: center;
+     flex-flow: column wrap;
+ }
+
+ footer .copyright p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+   }
+
+
+   /*------About Page-Tablet------*/
+
+
+   .mission-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-flow: row wrap;
+        padding-top: 45px;
+    }
+
+    .mission-content p {
+        width: 42%;
+        padding: 20px 0;
+    }
+
+    .contact-section .content-wrapper h2 {
+        width:66%;
+    }
+
+    .contact-content {
+        display: flex;
+        justify-content:space-between;
+        align-items: flex-start;
+        padding-bottom: 25px;
+        margin: 0;
+}
+
+/*---------FAQ Page-Tablet----------*/
+
+
+    .faq .content-wrapper {
+        justify-content: space-between;
+    }
+
+    .faq-content {
+        flex-basis: 40%;
+    }
+
+    .faq h2 {
+        width: 100%;
+    }
+ }
+
+@media only screen and (min-width: 1200px) {
+/* Desktop Styles Here*/
+
 }
 
 /* ==========================================================================
