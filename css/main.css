@@ -98,6 +98,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-align: left;
   color: #e2e3ed;
+
 }
 
 ul,
@@ -141,8 +142,6 @@ address {
 font-style: normal;
 }
 
-}
-
 
 /* ---------------------------Base Header-Footer Styles------------------------*/
 .content-wrapper{
@@ -156,7 +155,7 @@ header, footer{
     align-items: center;
     flex-flow: row wrap;
     background-color: #202322;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
  /*------------------header-----------------*/
@@ -195,7 +194,7 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
-}
+  padding: 0 30px;
 }
 /*footer*/
 footer {
@@ -235,6 +234,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 0 20px;
 }
 .hero-area h1 {
   font-size: 2.25em;
@@ -251,6 +251,7 @@ aside{
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+  padding: 0 20px;
 }
 aside .form{
   margin-top: 30px;
@@ -276,19 +277,22 @@ input[type=button] {
   text-align: center;
   text-transform: uppercase;
 }
+
 /*Features*/
 
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 0 20px;
 }
 .feaures h2 {
 margin-bottom: 60px;
 }
 .features article {
-  width: 63%;
+  width: 50%;
   margin: 30px 0;
+  padding-left: 80px;
 }
 .features .features-items {
   display: flex;
@@ -296,7 +300,7 @@ margin-bottom: 60px;
   align-items: center;
   flex-flow: row wrap;
 }
-.features p{
+.features p {
   text-align: center;
   margin: 0;
 }
@@ -308,6 +312,7 @@ margin-bottom: 60px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 0 20px;
 }
 
 .reviews h2 {
@@ -465,7 +470,7 @@ line-height: 1;
  }
  h2 {
    font-size: 2.25em;
-   line-hieght: 1.333;
+   line-height: 1.333;
  }
  h3 {
    font-size: 1.5em;
@@ -527,12 +532,12 @@ header figure {
  .features article {
    display: flex;
    justify-content: center;
-   align-items: center;
-   flex-flow: column wrap;
+   align-content: center;
+   flex-flow: row wrap;
    flex-basis: 50%;
  }
  .features .features-item-description {
-      width: 62%;
+      width: 25%;
  }
 
  /* Reviews */
