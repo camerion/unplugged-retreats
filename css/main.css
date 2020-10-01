@@ -466,7 +466,7 @@ line-height: 1;
 /* General styles */
  .content-wrapper {
      max-width: 640px;
-     margin: 100px 0;
+     margin: 0 65px;
  }
  h2 {
    font-size: 2.25em;
@@ -482,6 +482,7 @@ line-height: 1;
  header {
    justify-content: space-between;
    padding: 33px 0;
+   margin: 0;
  }
 
  header .content-wrapper {
@@ -507,6 +508,7 @@ header figure {
      font-size: 3em;
      line-height: 1;
      margin: 0;
+     padding: 100px 0;
    }
 
  /* Aside */
@@ -530,17 +532,18 @@ header figure {
   margin-bottom: 20px;
 }
  .features article {
-   display: flex;
-   flex-direction: row;
    flex-basis: 50%;
+   margin: 0 60px;
  }
- .features-items {
+ .feature-item {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    flex-flow: row wrap;
+   padding: 50px 25px;
  }
  .features .features-item-description {
-      width: 25%;
+      width: 26%;
+      padding: 50px 25px;
  }
 
  /* Reviews */
@@ -685,6 +688,15 @@ p {
 
   .features article {
       flex-basis: 33%;
+      padding: 0 90px;
+      margin:
+    }
+
+  .feature-item {
+  padding: 60px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   }
 
   /* Reviews */
