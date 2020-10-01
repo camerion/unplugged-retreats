@@ -146,7 +146,7 @@ font-style: normal;
 /* ---------------------------Base Header-Footer Styles------------------------*/
 .content-wrapper{
   width: 90%;
-  margin: 50px 0;
+  margin: 0 50px;
 }
 
 header, footer{
@@ -280,29 +280,29 @@ input[type=button] {
 
 /*Features*/
 
-.features {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  padding: 0 20px;
-}
-.feaures h2 {
-margin-bottom: 60px;
-}
 .features article {
-  width: 50%;
-  margin: 30px 0;
-  padding-left: 80px;
-}
-.features .features-items {
+  width: 80%;
+  margin: 0;
+  padding: 50px 20px 65px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
+}
+
+.feaures h2 {
+  margin-bottom: 45px;
+}
+.features-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .features p {
   text-align: center;
   margin: 0;
+  padding: 25px 0;
 }
 
 /*Reviews*/
