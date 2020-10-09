@@ -628,7 +628,9 @@ footer p {
  footer .copyright  {
    width: 100%;
    }
-
+.social-icons i {
+  margin: 0 20px;
+}
 
    /*------About Page-Tablet------*/
 
