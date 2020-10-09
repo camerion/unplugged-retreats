@@ -233,6 +233,14 @@ footer .copyright {
   margin: 20px 0;
 }
 
+.social-icons  i {
+  color: #e2e3ed;
+  background: #527158;
+  border: 20px solid #527158;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
 /*----------------------Mobile Styles - Homepage---------------*/
 
 /*Hero Area*/
