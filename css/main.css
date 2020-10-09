@@ -146,7 +146,7 @@ font-style: normal;
 /* ---------------------------Base Header-Footer Styles------------------------*/
 .content-wrapper{
   width: 90%;
-  margin: 0 50px;
+  margin: 50px 0;
 }
 
 header, footer{
@@ -195,7 +195,8 @@ header nav {
 }
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   width:100%;
 }
 
