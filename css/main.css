@@ -188,14 +188,13 @@ header nav {
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
   width: 60%;
 }
 header nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width:100%;
 }
